@@ -1,2 +1,2 @@
-# indrakusuma-cvpage
-cv page for Indrakusuma
+# Indra Kusuma Profile Page
+https://indrakusuma.web.id
