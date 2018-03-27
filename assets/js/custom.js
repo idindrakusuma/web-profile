@@ -48,7 +48,9 @@ $(function(){
             Carousels / Resume, Testimonials, Customers /
     =========================================================================*/
       $(".customer-carousel").owlCarousel({
-        items: 4
+        items: 6,
+        lazyLoad: true,
+        dots: false,
       });
 
       $(".resume-carousel, .testimonial-carousel").owlCarousel({
@@ -59,10 +61,12 @@ $(function(){
             Backstretch Background Slider
     =========================================================================*/
     $("#welcome").backstretch([
-        "http://placehold.it/1200x768",
-        "http://placehold.it/1200x768",
+        "../assets/images/indra-1.JPG",
+        "../assets/images/indra-2.JPG",
+        "../assets/images/indra-3.JPG",
+        "../assets/images/indra-santri.JPG",
         // "assets/images/your_pic.jpg" 
-    ], {duration: 5000, fade: 400});
+    ], {duration: 5000, fade: 1000});
 
     /*=========================================================================
             Welcome & Header Height
