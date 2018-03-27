@@ -53,8 +53,14 @@ $(function(){
         dots: false,
       });
 
-      $(".resume-carousel, .testimonial-carousel").owlCarousel({
+      $(".resume-carousel").owlCarousel({
         singleItem:true
+      });
+
+      $(".testimonial-carousel").owlCarousel({
+        singleItem: true,
+        loop: true,
+        autoPlay: true
       });
 
     /*=========================================================================
