@@ -64,7 +64,6 @@ $(function(){
         "../assets/images/indra-1.JPG",
         "../assets/images/indra-2.JPG",
         "../assets/images/indra-3.JPG",
-        "../assets/images/indra-santri.JPG",
         // "assets/images/your_pic.jpg" 
     ], {duration: 5000, fade: 1000});
 
