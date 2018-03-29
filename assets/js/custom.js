@@ -23,7 +23,9 @@ $(function(){
             Portfolio filter
     =========================================================================*/
       if($('#works .item-outer').length > 0){
-        var filterizd = $('#works .item-outer').filterizr();
+        var filterizd = $('#works .item-outer').filterizr({
+          filter: 1,
+        });
       }
       $( '.control ul li' ).on( 'click', function() {
             $( this ).parent().find( 'li.active' ).removeClass( 'active' );
