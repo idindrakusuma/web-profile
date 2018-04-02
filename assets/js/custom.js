@@ -25,6 +25,8 @@ $(function(){
       if($('#works .item-outer').length > 0){
         var filterizd = $('#works .item-outer').filterizr({
           filter: 1,
+          delay: 150,
+          delayMode: "progressive",
         });
       }
       $( '.control ul li' ).on( 'click', function() {
