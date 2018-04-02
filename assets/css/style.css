@@ -743,6 +743,17 @@ li {
     border-radius: 2px;
 }
 
+.resume-download:hover{
+    background: #1488CC;
+    /* fallback for old browsers */
+
+    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
+    /* Chrome 10-25, Safari 5.1-6 */
+
+    background: linear-gradient(to right, #2B32B2, #1488CC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 /*-----------------------------------------------------------------*/
 /*                      SECTION WORKS                              */
 /*-----------------------------------------------------------------*/
@@ -1115,7 +1126,12 @@ li {
 
 .btn-default:hover {
     color: #FFF;
-    background-color: #0C0C0C;
+    background: #1488CC;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2B32B2, #1488CC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border: 0;
 }
 
