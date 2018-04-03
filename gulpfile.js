@@ -1,8 +1,9 @@
 var gulp = require('gulp');
 var uglify = require('gulp-uglify');
+var minifyCSS = require('gulp-csso');
 var concat = require('gulp-concat');
 
-gulp.task('custom-scripts', function () {
+gulp.task('scripts', function () {
     // first thing, where is file?
     gulp.src('resources/js/*.js')
         // make to min
@@ -11,8 +12,10 @@ gulp.task('custom-scripts', function () {
         .pipe(gulp.dest('assets/js/'));
 });
 
-gulp.task('plugins-script',function(){
-    gulp.src('resources/js/plugins/main-plugins.js')
-    .pipe(uglify())
-    .pipe(gulp.dest('assets/js/plugins'));
+gulp.task('css', function(){
+    gulp.src('resources/css/*.css')
+        .pipe(minifyCSS())
+        .pipe(gulp.dest('assets/css'))
 });
+
+gulp.task('default', ['scripts','css']);
