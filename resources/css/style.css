@@ -663,7 +663,7 @@ li {
 /*                      SECTION FUN FACTS                          */
 /*-----------------------------------------------------------------*/
 .facts {
-    background: url("../../assets/images/indra-champion.png") center left no-repeat;
+    background: url("../../dist/images/indra-champion.png") center left no-repeat;
     background-size: cover;
 }
 

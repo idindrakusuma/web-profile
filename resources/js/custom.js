@@ -71,10 +71,10 @@ $(function(){
             Backstretch Background Slider
     =========================================================================*/
     $("#welcome").backstretch([
-        "../assets/images/indra-1.JPG",
-        "../assets/images/indra-2.JPG",
-        "../assets/images/indra-3.JPG",
-        // "assets/images/your_pic.jpg" 
+        "../dist/images/indra-1.JPG",
+        "../dist/images/indra-2.JPG",
+        "../dist/images/indra-3.JPG",
+        // "dist/images/your_pic.jpg" 
     ], {duration: 5000, fade: 1000});
 
     /*=========================================================================
