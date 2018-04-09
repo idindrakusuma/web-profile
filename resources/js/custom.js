@@ -90,6 +90,12 @@ $(function(){
       type: 'image'
     });
 
+    $('.open-popup-link').magnificPopup({
+      type: 'inline',
+      mainClass: 'mfp-fade',
+      midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
+    });
+
     $('.work-video').magnificPopup({
       type: 'iframe',
       iframe: {
