@@ -702,6 +702,7 @@ li {
 /*-----------------------------------------------------------------*/
 .resume .top-item {
     margin-top: 0 !important;
+    height: 100vh;
 }
 
 .resume .resume-item {
